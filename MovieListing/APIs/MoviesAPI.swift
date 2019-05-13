@@ -37,7 +37,8 @@ class MoviesAPI: APIServiceProtocol  {
 			case .success:
 				print("\(request(Endpoints.getPopularMovies + path, method: .get))")
 				var model = PopularMoviesResponse()
-				model = response.result.value!
+				guard let result = response.result.value else { return }
+				model = result
 				succeed(model)
 			case .failure(let error):
 				print(error)
@@ -56,7 +57,8 @@ class MoviesAPI: APIServiceProtocol  {
 			case .success:
 				print("\(request(Endpoints.getMovieDetail + path, method: .get))")
 				var model = MovieDetail()
-				model = response.result.value!
+				guard let result = response.result.value else { return }
+				model = result
 				succeed(model)
 			case .failure(let error):
 				print(error)

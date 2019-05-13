@@ -7,10 +7,13 @@ provides-member:
 - ["12MovieListing0A15DetailViewModelC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "??"
 - "APIServiceProtocol"
 - "AssignmentPrecedence"
 - "Error"
+- !private "FloatLiteralType"
 - "Int"
+- !private "IntegerLiteralType"
 - "MovieDetail"
 - "MovieDetailViewModel"
 - !private "MoviesAPI"

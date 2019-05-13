@@ -23,7 +23,7 @@ class MovieDetailViewModel {
 	}
 
 	func initFetch() {
-		apiMovie.getMovieDetail(movieId: movieId!,
+		apiMovie.getMovieDetail(movieId: movieId ?? 0,
 								succeed: parse(_:),
 								failed: discardFailure(_:))
 	}
