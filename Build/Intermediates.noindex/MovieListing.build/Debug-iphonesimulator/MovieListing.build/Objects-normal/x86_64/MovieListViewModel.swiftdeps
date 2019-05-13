@@ -1,0 +1,328 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MovieListViewModel"
+- "MovieListCellViewModel"
+provides-nominal:
+- "12MovieListing0A13ListViewModelC"
+- "12MovieListing0A17ListCellViewModelV"
+provides-member:
+- ["12MovieListing0A13ListViewModelC", ""]
+- ["12MovieListing0A17ListCellViewModelV", ""]
+- ["12MovieListing0A13ListViewModelC", "userPressed"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "APIServiceProtocol"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Error"
+- "IndexPath"
+- "Int"
+- "Movie"
+- "MovieListCellViewModel"
+- "MovieListViewModel"
+- !private "MoviesAPI"
+- "PopularMoviesResponse"
+- "String"
+- !private "StringLiteralType"
+- !private "print"
+depends-member:
+- !private ["12MovieListing8APIErrorO", "deinit"]
+- !private ["12MovieListing18APIServiceProtocolP", "fetchMovie"]
+- !private ["12MovieListing18APIServiceProtocolP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- ["12ObjectMapper12BaseMappableP", "init"]
+- !private ["12ObjectMapper12BaseMappableP", "poster_path"]
+- !private ["12ObjectMapper12BaseMappableP", "results"]
+- !private ["12ObjectMapper12BaseMappableP", "title"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- ["SK", "init"]
+- !private ["SK", "row"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- !private ["Sl", "row"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "row"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "poster_path"]
+- !private ["Se", "results"]
+- !private ["Se", "row"]
+- !private ["Se", "subscript"]
+- !private ["Se", "title"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "poster_path"]
+- !private ["SE", "results"]
+- !private ["SE", "row"]
+- !private ["SE", "subscript"]
+- !private ["SE", "title"]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- ["SQ", "init"]
+- !private ["SQ", "row"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- ["SH", "init"]
+- !private ["SH", "row"]
+- !private ["SH", "subscript"]
+- !private ["10Foundation9IndexPathV", "row"]
+- ["12ObjectMapper8MappableP", "init"]
+- !private ["12ObjectMapper8MappableP", "poster_path"]
+- !private ["12ObjectMapper8MappableP", "results"]
+- !private ["12ObjectMapper8MappableP", "title"]
+- ["12MovieListing0A0C", "deinit"]
+- ["12MovieListing0A0C", "init"]
+- !private ["12MovieListing0A0C", "poster_path"]
+- !private ["12MovieListing0A0C", "title"]
+- ["12MovieListing0A17ListCellViewModelV", "String"]
+- ["12MovieListing0A17ListCellViewModelV", "imageUrl"]
+- ["12MovieListing0A17ListCellViewModelV", "init"]
+- ["12MovieListing0A17ListCellViewModelV", "titleText"]
+- ["12MovieListing0A13ListViewModelC", "APIServiceProtocol"]
+- ["12MovieListing0A13ListViewModelC", "Bool"]
+- ["12MovieListing0A13ListViewModelC", "Error"]
+- ["12MovieListing0A13ListViewModelC", "IndexPath"]
+- ["12MovieListing0A13ListViewModelC", "Int"]
+- ["12MovieListing0A13ListViewModelC", "Movie"]
+- ["12MovieListing0A13ListViewModelC", "MovieListCellViewModel"]
+- !private ["12MovieListing0A13ListViewModelC", "MoviesAPI"]
+- ["12MovieListing0A13ListViewModelC", "PopularMoviesResponse"]
+- !private ["12MovieListing0A13ListViewModelC", "String"]
+- ["12MovieListing0A13ListViewModelC", "apiMovie"]
+- !private ["12MovieListing0A13ListViewModelC", "cellViewModels"]
+- ["12MovieListing0A13ListViewModelC", "createCellViewModel"]
+- ["12MovieListing0A13ListViewModelC", "discardFailure"]
+- ["12MovieListing0A13ListViewModelC", "getCellViewModel"]
+- ["12MovieListing0A13ListViewModelC", "init"]
+- ["12MovieListing0A13ListViewModelC", "initFetch"]
+- ["12MovieListing0A13ListViewModelC", "isAllowSegue"]
+- ["12MovieListing0A13ListViewModelC", "isLoading"]
+- !private ["12MovieListing0A13ListViewModelC", "movie"]
+- ["12MovieListing0A13ListViewModelC", "numberOfCells"]
+- ["12MovieListing0A13ListViewModelC", "parse"]
+- !private ["12MovieListing0A13ListViewModelC", "popularMoviesResponse"]
+- !private ["12MovieListing0A13ListViewModelC", "print"]
+- ["12MovieListing0A13ListViewModelC", "reloadTableViewClosure"]
+- ["12MovieListing0A13ListViewModelC", "selectedMovie"]
+- ["12MovieListing0A13ListViewModelC", "updateLoadingStatus"]
+- ["12MovieListing0A13ListViewModelC", "userPressed"]
+- !private ["12MovieListing9MoviesAPIC", "deinit"]
+- !private ["12MovieListing9MoviesAPIC", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- ["SM", "init"]
+- !private ["SM", "row"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["12MovieListing21PopularMoviesResponseC", "deinit"]
+- ["12MovieListing21PopularMoviesResponseC", "init"]
+- !private ["12MovieListing21PopularMoviesResponseC", "results"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- ["Sk", "init"]
+- !private ["Sk", "row"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- !private ["ST", "row"]
+- !private ["ST", "subscript"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "12MovieListing8APIErrorO"
+- !private "12MovieListing18APIServiceProtocolP"
+- "Sa"
+- "12ObjectMapper12BaseMappableP"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "10Foundation9IndexPathV"
+- "12ObjectMapper8MappableP"
+- "12MovieListing0A0C"
+- "12MovieListing0A17ListCellViewModelV"
+- "12MovieListing0A13ListViewModelC"
+- !private "12MovieListing9MoviesAPIC"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "12MovieListing21PopularMoviesResponseC"
+- "Sk"
+- "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- "ST"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageFrame.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/ObjectMapper.framework/Headers/ObjectMapper.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/NSImage+Compatibility.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/AlamofireObjectMapper.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bc5bda7936b07ca15e24c17fbfe13a34"

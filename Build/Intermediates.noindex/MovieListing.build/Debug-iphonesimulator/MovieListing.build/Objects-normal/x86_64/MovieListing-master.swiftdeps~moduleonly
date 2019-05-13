@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "4911675e254798db653106cde347fe6c"
+build_time: [1557725802, 135479000]
+inputs:
+  "/Users/caglakarakurt/Desktop/movielisting/MovieListing/MovieListing/Responses/Movie.swift": [1557615019, 226501021]
+  "/Users/caglakarakurt/Desktop/movielisting/MovieListing/MovieListing/APIs/MoviesAPI.swift": [1557614123, 534168852]
+  "/Users/caglakarakurt/Desktop/movielisting/MovieListing/MovieListing/AppDelegate/AppDelegate.swift": [1557243713, 57829451]
+  "/Users/caglakarakurt/Desktop/movielisting/MovieListing/MovieListing/MovieList/MovieListVC.swift": [1557615829, 580307306]
+  "/Users/caglakarakurt/Desktop/movielisting/MovieListing/MovieListing/MovieDetail/MovieDetailViewController.swift": [1557725796, 527345677]
+  "/Users/caglakarakurt/Desktop/movielisting/MovieListing/MovieListing/MovieList/MovieListViewModel.swift": [1557611809, 534960126]
+  "/Users/caglakarakurt/Desktop/movielisting/MovieListing/MovieListing/Constants/ServiceConstants.swift": [1557612351, 763949955]
+  "/Users/caglakarakurt/Desktop/movielisting/MovieListing/MovieListing/MovieDetail/MovieDetailViewModel.swift": [1557614636, 91953746]

@@ -1,0 +1,601 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MovieDetailViewController"
+provides-nominal:
+- "12MovieListing0A20DetailViewControllerC"
+provides-member:
+- ["12MovieListing0A20DetailViewControllerC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "imageView"
+- "lblDate"
+- "lblMovieDetail"
+- "lblTitle"
+- "viewDidLoad"
+depends-top-level:
+- !private "+"
+- "AssignmentPrecedence"
+- !private "DispatchQueue"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MovieDetailViewController"
+- "MovieDetailViewModel"
+- !private "StringLiteralType"
+- "UIImageView"
+- "UILabel"
+- "UIViewController"
+- !private "URL"
+depends-member:
+- !private ["So15CALayerDelegateP", "sd_setImage"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- ["s7CVarArgP", "MovieDetailViewModel"]
+- !private ["s7CVarArgP", "URL"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "asyncAfter"]
+- !private ["s7CVarArgP", "configureView"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "imageView"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lblDate"]
+- !private ["s7CVarArgP", "lblMovieDetail"]
+- !private ["s7CVarArgP", "lblTitle"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "navigationItem"]
+- !private ["s7CVarArgP", "sd_setImage"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewModel"]
+- !private ["SL", "now"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- ["s28CustomDebugStringConvertibleP", "MovieDetailViewModel"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "asyncAfter"]
+- !private ["s28CustomDebugStringConvertibleP", "configureView"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "imageView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lblDate"]
+- !private ["s28CustomDebugStringConvertibleP", "lblMovieDetail"]
+- !private ["s28CustomDebugStringConvertibleP", "lblTitle"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationItem"]
+- !private ["s28CustomDebugStringConvertibleP", "sd_setImage"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewModel"]
+- !private ["s17CustomReflectableP", "sd_setImage"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- ["s23CustomStringConvertibleP", "MovieDetailViewModel"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "asyncAfter"]
+- !private ["s23CustomStringConvertibleP", "configureView"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "imageView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lblDate"]
+- !private ["s23CustomStringConvertibleP", "lblMovieDetail"]
+- !private ["s23CustomStringConvertibleP", "lblTitle"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "navigationItem"]
+- !private ["s23CustomStringConvertibleP", "sd_setImage"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewModel"]
+- !private ["Se", "init"]
+- !private ["Se", "sd_setImage"]
+- !private ["Se", "text"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["So18OS_dispatch_objectC", "asyncAfter"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "asyncAfter"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- !private ["SE", "init"]
+- !private ["SE", "sd_setImage"]
+- !private ["SE", "text"]
+- !private ["SQ", "DispatchQueue"]
+- ["SQ", "MovieDetailViewModel"]
+- !private ["SQ", "URL"]
+- ["SQ", ""]
+- !private ["SQ", "asyncAfter"]
+- !private ["SQ", "configureView"]
+- !private ["SQ", "didReceiveMemoryWarning"]
+- !private ["SQ", "imageView"]
+- !private ["SQ", "init"]
+- !private ["SQ", "lblDate"]
+- !private ["SQ", "lblMovieDetail"]
+- !private ["SQ", "lblTitle"]
+- !private ["SQ", "main"]
+- !private ["SQ", "navigationItem"]
+- !private ["SQ", "now"]
+- !private ["SQ", "sd_setImage"]
+- !private ["SQ", "text"]
+- !private ["SQ", "title"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "viewModel"]
+- !private ["s23ExpressibleByNilLiteralP", "sd_setImage"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["SH", "DispatchQueue"]
+- ["SH", "MovieDetailViewModel"]
+- !private ["SH", "URL"]
+- ["SH", ""]
+- !private ["SH", "asyncAfter"]
+- !private ["SH", "configureView"]
+- !private ["SH", "didReceiveMemoryWarning"]
+- !private ["SH", "imageView"]
+- !private ["SH", "init"]
+- !private ["SH", "lblDate"]
+- !private ["SH", "lblMovieDetail"]
+- !private ["SH", "lblTitle"]
+- !private ["SH", "main"]
+- !private ["SH", "navigationItem"]
+- !private ["SH", "sd_setImage"]
+- !private ["SH", "text"]
+- !private ["SH", "title"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "viewModel"]
+- !private ["12MovieListing0A20DetailViewControllerC", "DispatchQueue"]
+- ["12MovieListing0A20DetailViewControllerC", "MovieDetailViewModel"]
+- ["12MovieListing0A20DetailViewControllerC", "UIImageView"]
+- ["12MovieListing0A20DetailViewControllerC", "UILabel"]
+- !private ["12MovieListing0A20DetailViewControllerC", "URL"]
+- ["12MovieListing0A20DetailViewControllerC", "configureView"]
+- ["12MovieListing0A20DetailViewControllerC", "deinit"]
+- ["12MovieListing0A20DetailViewControllerC", "didReceiveMemoryWarning"]
+- ["12MovieListing0A20DetailViewControllerC", "imageView"]
+- ["12MovieListing0A20DetailViewControllerC", "init"]
+- ["12MovieListing0A20DetailViewControllerC", "lblDate"]
+- ["12MovieListing0A20DetailViewControllerC", "lblMovieDetail"]
+- ["12MovieListing0A20DetailViewControllerC", "lblTitle"]
+- !private ["12MovieListing0A20DetailViewControllerC", "navigationItem"]
+- ["12MovieListing0A20DetailViewControllerC", "viewDidLoad"]
+- ["12MovieListing0A20DetailViewControllerC", "viewModel"]
+- !private ["12MovieListing0A20DetailViewControllerC", "viewModel.storage"]
+- !private ["12MovieListing0A15DetailViewModelC", "date"]
+- !private ["12MovieListing0A15DetailViewModelC", "detail"]
+- !private ["12MovieListing0A15DetailViewModelC", "imageUrl"]
+- ["12MovieListing0A15DetailViewModelC", "init"]
+- !private ["12MovieListing0A15DetailViewModelC", "initFetch"]
+- !private ["12MovieListing0A15DetailViewModelC", "title"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- ["So8NSCodingP", "MovieDetailViewModel"]
+- !private ["So8NSCodingP", "URL"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "configureView"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "imageView"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lblDate"]
+- !private ["So8NSCodingP", "lblMovieDetail"]
+- !private ["So8NSCodingP", "lblTitle"]
+- !private ["So8NSCodingP", "navigationItem"]
+- !private ["So8NSCodingP", "sd_setImage"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "viewModel"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- ["So26NSExtensionRequestHandlingP", "MovieDetailViewModel"]
+- !private ["So26NSExtensionRequestHandlingP", "URL"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "configureView"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "imageView"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "lblDate"]
+- !private ["So26NSExtensionRequestHandlingP", "lblMovieDetail"]
+- !private ["So26NSExtensionRequestHandlingP", "lblTitle"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationItem"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "viewModel"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "MovieDetailViewModel"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "asyncAfter"]
+- ["So8NSObjectC", "configureView"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "imageView"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "lblDate"]
+- ["So8NSObjectC", "lblMovieDetail"]
+- ["So8NSObjectC", "lblTitle"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "navigationItem"]
+- !private ["So8NSObjectC", "sd_setImage"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "title"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewModel"]
+- ["So8NSObjectC", "viewModel.storage"]
+- !private ["So8NSObjectP", "DispatchQueue"]
+- ["So8NSObjectP", "MovieDetailViewModel"]
+- !private ["So8NSObjectP", "URL"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "asyncAfter"]
+- !private ["So8NSObjectP", "configureView"]
+- !private ["So8NSObjectP", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectP", "imageView"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lblDate"]
+- !private ["So8NSObjectP", "lblMovieDetail"]
+- !private ["So8NSObjectP", "lblTitle"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "navigationItem"]
+- !private ["So8NSObjectP", "sd_setImage"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "title"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "viewModel"]
+- !private ["So9OS_objectC", "asyncAfter"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "sd_setImage"]
+- !private ["Sq", "text"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "sd_setImage"]
+- !private ["So29UIAccessibilityIdentificationP", "sd_setImage"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "sd_setImage"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- ["So21UIAppearanceContainerP", "MovieDetailViewModel"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "configureView"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "imageView"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "lblDate"]
+- !private ["So21UIAppearanceContainerP", "lblMovieDetail"]
+- !private ["So21UIAppearanceContainerP", "lblTitle"]
+- !private ["So21UIAppearanceContainerP", "navigationItem"]
+- !private ["So21UIAppearanceContainerP", "sd_setImage"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "viewModel"]
+- !private ["So18UIContentContainerP", "DispatchQueue"]
+- ["So18UIContentContainerP", "MovieDetailViewModel"]
+- !private ["So18UIContentContainerP", "URL"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "configureView"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "imageView"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "lblDate"]
+- !private ["So18UIContentContainerP", "lblMovieDetail"]
+- !private ["So18UIContentContainerP", "lblTitle"]
+- !private ["So18UIContentContainerP", "navigationItem"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "viewModel"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "sd_setImage"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "sd_setImage"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- ["So18UIFocusEnvironmentP", "MovieDetailViewModel"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "configureView"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "imageView"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "lblDate"]
+- !private ["So18UIFocusEnvironmentP", "lblMovieDetail"]
+- !private ["So18UIFocusEnvironmentP", "lblTitle"]
+- !private ["So18UIFocusEnvironmentP", "navigationItem"]
+- !private ["So18UIFocusEnvironmentP", "sd_setImage"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "viewModel"]
+- !private ["So11UIFocusItemP", "sd_setImage"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "sd_setImage"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So11UIImageViewC", "sd_setImage"]
+- !private ["So7UILabelC", "text"]
+- !private ["So16UINavigationItemC", "title"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- ["So30UIPasteConfigurationSupportingP", "MovieDetailViewModel"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "configureView"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "imageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "lblDate"]
+- !private ["So30UIPasteConfigurationSupportingP", "lblMovieDetail"]
+- !private ["So30UIPasteConfigurationSupportingP", "lblTitle"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "sd_setImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewModel"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- ["So11UIResponderC", "MovieDetailViewModel"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "URL"]
+- ["So11UIResponderC", "configureView"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "imageView"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "lblDate"]
+- ["So11UIResponderC", "lblMovieDetail"]
+- ["So11UIResponderC", "lblTitle"]
+- !private ["So11UIResponderC", "navigationItem"]
+- !private ["So11UIResponderC", "sd_setImage"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewModel"]
+- ["So11UIResponderC", "viewModel.storage"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- ["So30UIResponderStandardEditActionsP", "MovieDetailViewModel"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "configureView"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "imageView"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "lblDate"]
+- !private ["So30UIResponderStandardEditActionsP", "lblMovieDetail"]
+- !private ["So30UIResponderStandardEditActionsP", "lblTitle"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
+- !private ["So30UIResponderStandardEditActionsP", "sd_setImage"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "viewModel"]
+- !private ["So16UIStateRestoringP", "DispatchQueue"]
+- ["So16UIStateRestoringP", "MovieDetailViewModel"]
+- !private ["So16UIStateRestoringP", "URL"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "configureView"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "imageView"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "lblDate"]
+- !private ["So16UIStateRestoringP", "lblMovieDetail"]
+- !private ["So16UIStateRestoringP", "lblTitle"]
+- !private ["So16UIStateRestoringP", "navigationItem"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "viewModel"]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- ["So18UITraitEnvironmentP", "MovieDetailViewModel"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "configureView"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "imageView"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "lblDate"]
+- !private ["So18UITraitEnvironmentP", "lblMovieDetail"]
+- !private ["So18UITraitEnvironmentP", "lblTitle"]
+- !private ["So18UITraitEnvironmentP", "navigationItem"]
+- !private ["So18UITraitEnvironmentP", "sd_setImage"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "viewModel"]
+- !private ["So23UIUserActivityRestoringP", "DispatchQueue"]
+- ["So23UIUserActivityRestoringP", "MovieDetailViewModel"]
+- !private ["So23UIUserActivityRestoringP", "URL"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "configureView"]
+- !private ["So23UIUserActivityRestoringP", "didReceiveMemoryWarning"]
+- !private ["So23UIUserActivityRestoringP", "imageView"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "lblDate"]
+- !private ["So23UIUserActivityRestoringP", "lblMovieDetail"]
+- !private ["So23UIUserActivityRestoringP", "lblTitle"]
+- !private ["So23UIUserActivityRestoringP", "navigationItem"]
+- !private ["So23UIUserActivityRestoringP", "sd_setImage"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "viewModel"]
+- !private ["So6UIViewC", "sd_setImage"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "DispatchQueue"]
+- ["So16UIViewControllerC", "MovieDetailViewModel"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UILabel"]
+- !private ["So16UIViewControllerC", "URL"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "configureView"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "imageView"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "lblDate"]
+- ["So16UIViewControllerC", "lblMovieDetail"]
+- ["So16UIViewControllerC", "lblTitle"]
+- !private ["So16UIViewControllerC", "navigationItem"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewModel"]
+- ["So16UIViewControllerC", "viewModel.storage"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "MovieDetailViewModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "asyncAfter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configureView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lblDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lblMovieDetail"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lblTitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sd_setImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewModel"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "sd_setImage"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "sd_setImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "8Dispatch0A4TimeV"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "12MovieListing0A20DetailViewControllerC"
+- "12MovieListing0A15DetailViewModelC"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So9OS_objectC"
+- !private "Sq"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So11UIImageViewC"
+- !private "So7UILabelC"
+- !private "So16UINavigationItemC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageFrame.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/ObjectMapper.framework/Headers/ObjectMapper.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Headers/NSImage+Compatibility.h"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/caglakarakurt/Desktop/movielisting/MovieListing/Carthage/Build/iOS/AlamofireObjectMapper.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "631ad2615c45f411fdd7131f28343cd4"
